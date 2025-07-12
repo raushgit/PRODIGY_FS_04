@@ -1,3 +1,4 @@
+//This app.js file which contains all the backend techniques 
 import express from "express";
 import { Server } from "socket.io";
 import { createServer } from "http";
