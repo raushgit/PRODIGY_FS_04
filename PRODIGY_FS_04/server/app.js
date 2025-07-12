@@ -5,6 +5,7 @@ import cors from "cors";
 import jwt from "jsonwebtoken";
 import cookieParser from "cookie-parser";
 
+// JWT token
 const secretKeyJWT = "asdasdsadasdasdasdsa";
 const port = 3000;
 
