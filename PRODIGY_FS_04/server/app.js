@@ -55,7 +55,7 @@ io.use((socket, next) => {
 });
 
 io.on("connection", (socket) => {
-  console.log("User Connected", socket.id);
+  console.log("User Connected", socket.id); // User connection : true
 
   socket.on("message", ({ room, message }) => {
     console.log({ room, message });
