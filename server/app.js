@@ -9,7 +9,6 @@ import cookieParser from "cookie-parser";
 
 const secretKeyJWT = "asdasdsadasdasdasdsa";
 const port = 3000;
-
 const app = express();
 
 const server = createServer(app);
